@@ -76,3 +76,21 @@ numeros.sort(function(a, b) {
 
 console.log("Números em ordem decrescente:");
 console.log(numeros);
+
+
+5
+let numero = Number(prompt("Digite um número inteiro:"));
+
+if (numero % 2 == 0) {
+
+    numero += 1;
+    console.log("O número era par e foi transformado em ímpar:");
+    console.log(numero);
+
+} else {
+
+    numero -= 1;
+    console.log("O número era ímpar e foi transformado em par:");
+    console.log(numero);
+
+}
