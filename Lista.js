@@ -94,3 +94,23 @@ if (numero % 2 == 0) {
     console.log(numero);
 
 }
+
+
+6
+let letra = prompt("Digite uma letra:").toLowerCase();
+
+if (
+    letra == "a" ||
+    letra == "e" ||
+    letra == "i" ||
+    letra == "o" ||
+    letra == "u"
+) {
+
+    console.log("A letra digitada é uma vogal.");
+
+} else {
+
+    console.log("A letra digitada é uma consoante.");
+
+}
