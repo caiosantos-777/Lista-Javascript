@@ -25,3 +25,36 @@ for (let i = 10; i >= 0; i--) {
 console.log("Lançamento realizado!");
 
 
+3
+let ganhoAnual = 0;
+let gastoAnual = 0;
+
+for (let mes = 1; mes <= 12; mes++) {
+
+    let ganho = Number(prompt("Digite o ganho do mês " + mes + ":"));
+    let gasto = Number(prompt("Digite o gasto do mês " + mes + ":"));
+
+    ganhoAnual += ganho;
+    gastoAnual += gasto;
+
+}
+
+let saldo = ganhoAnual - gastoAnual;
+
+alert("Ganho bruto anual: R$ " + ganhoAnual);
+alert("Gasto anual: R$ " + gastoAnual);
+alert("Saldo financeiro anual: R$ " + saldo);
+
+if (saldo > 0) {
+
+    alert("A empresa teve Lucro.");
+
+} else if (saldo < 0) {
+
+    alert("A empresa teve Prejuízo.");
+
+} else {
+
+    alert("A empresa ficou no zero a zero.");
+
+}
