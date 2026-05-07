@@ -205,3 +205,32 @@ console.log("Salário bruto: R$ " + salarioBruto.toFixed(2));
 console.log("Desconto do INSS: R$ " + descontoINSS.toFixed(2));
 console.log("Salário líquido: R$ " + salarioLiquido.toFixed(2));
 
+
+11
+let salario = Number(prompt("Digite o salário do funcionário:"));
+
+let taxa;
+let desconto;
+let salarioLiquido;
+
+if (salario <= 1000) {
+
+    taxa = 0.08;
+
+} else if (salario <= 1500) {
+
+    taxa = 0.085;
+
+} else {
+
+    taxa = 0.09;
+
+}
+
+desconto = salario * taxa;
+salarioLiquido = salario - desconto;
+
+console.log("Salário informado: R$ " + salario.toFixed(2));
+console.log("Taxa aplicada: " + (taxa * 100) + "%");
+console.log("Valor do desconto: R$ " + desconto.toFixed(2));
+console.log("Salário líquido: R$ " + salarioLiquido.toFixed(2));
