@@ -174,3 +174,20 @@ let multiplicacao = numero1 * numero2;
 console.log("Diferença entre os números: " + diferenca);
 console.log("Primeiro número + triplo do segundo: " + somaTriplo);
 console.log("Multiplicação dos números: " + multiplicacao);
+
+
+9
+let numero1 = Number(prompt("Digite o primeiro número:"));
+let numero2 = Number(prompt("Digite o segundo número:"));
+
+if (numero1 > numero2) {
+
+    console.log(numero1);
+    console.log(numero2);
+
+} else {
+
+    console.log(numero2);
+    console.log(numero1);
+
+}
