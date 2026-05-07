@@ -114,3 +114,63 @@ if (
     console.log("A letra digitada é uma consoante.");
 
 }
+
+
+7
+let codigo = prompt("Digite o código do picolé:").toLowerCase();
+
+switch (codigo) {
+
+    case "a":
+        console.log("Chocolate - R$ 1,50");
+        break;
+
+    case "b":
+        console.log("Morango - R$ 2,50");
+        break;
+
+    case "c":
+        console.log("Creme - R$ 2,50");
+        break;
+
+    case "d":
+        console.log("Manga - R$ 3,20");
+        break;
+
+    case "e":
+        console.log("Melancia - R$ 3,40");
+        break;
+
+    case "f":
+        console.log("Vanilla Ice - R$ 3,00");
+        break;
+
+    case "g":
+        console.log("Céu Azul - R$ 3,60");
+        break;
+
+    case "h":
+        console.log("Brownie - R$ 4,00");
+        break;
+
+    case "i":
+        console.log("Hawaiano - R$ 5,00");
+        break;
+
+    default:
+        console.log("Código inválido.");
+
+}
+
+
+8
+let numero1 = Number(prompt("Digite o primeiro número:"));
+let numero2 = Number(prompt("Digite o segundo número:"));
+
+let diferenca = numero1 - numero2;
+let somaTriplo = numero1 + (numero2 * 3);
+let multiplicacao = numero1 * numero2;
+
+console.log("Diferença entre os números: " + diferenca);
+console.log("Primeiro número + triplo do segundo: " + somaTriplo);
+console.log("Multiplicação dos números: " + multiplicacao);
