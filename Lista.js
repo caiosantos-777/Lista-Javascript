@@ -191,3 +191,17 @@ if (numero1 > numero2) {
     console.log(numero1);
 
 }
+
+
+10
+let nome = prompt("Digite o nome do funcionário:");
+let salarioBruto = Number(prompt("Digite o salário bruto:"));
+
+let descontoINSS = salarioBruto * 0.08;
+let salarioLiquido = salarioBruto - descontoINSS;
+
+console.log("Nome do funcionário: " + nome);
+console.log("Salário bruto: R$ " + salarioBruto.toFixed(2));
+console.log("Desconto do INSS: R$ " + descontoINSS.toFixed(2));
+console.log("Salário líquido: R$ " + salarioLiquido.toFixed(2));
+
